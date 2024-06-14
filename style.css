@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-form input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.nav-form button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.carousel-item img {
+    height: 88vh;
+    background-position:center;
+    background-size: cover;
+}
+.testimonials img {
+    height: 100px;
+    width:100px;
+    margin-left:20px;
+    margin-top:20px
+    
+    
+}
+ .card {
+      border: transparent;
+}
+
+.connect-us img {
+    height:30px;
+    width:30px;
+
+}
+.download-app img {
+   
+    width: 100px;
+}
+.login-img {
+    height:40px;
+    width:40px
+}
+
+@media only screen and (max-width:768px) {
+    .carousel-item img {
+        height: 70vh;
+  
+    }
+    
+}
